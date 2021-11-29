@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<!DOCTYPE root [
+	<!ELEMENT root ANY>
+	<!ENTITY filez SYSTEM "c:\WINDOWS\system.ini">
+]>
+<root>&filez;</root>

