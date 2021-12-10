@@ -15,6 +15,15 @@ Public Class Global_asax
         RegisterApiRoutes()
     End Sub
 
+#Region "Demo 6 Fix"
+    'Sub PreSendHeaders(sender As Object, e As EventArgs) Handles Me.PreSendRequestHeaders
+    '    Dim headersToRemove() As String = {"Server", "X-AspNet-Version"}
+    '    For Each header In headersToRemove
+    '        HttpContext.Current.Response.Headers.Remove(header)
+    '    Next
+    'End Sub
+#End Region
+
     Private Sub SetupDatabase()
         ConnectionString = "Data Source=" & Server.MapPath("~/App_Data/owasp.db")
         Dim db As New SqliteDatabase(ConnectionString)

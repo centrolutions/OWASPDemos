@@ -197,6 +197,8 @@
     <Content Include="Demo3.aspx" />
     <Content Include="Demo4.aspx" />
     <Content Include="Demo5.aspx" />
+    <Content Include="Demo6.aspx" />
+    <Content Include="ErrorPage.htm" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -286,6 +288,13 @@
     </Compile>
     <Compile Include="Demo5.aspx.vb">
       <DependentUpon>Demo5.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Demo6.aspx.designer.vb">
+      <DependentUpon>Demo6.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demo6.aspx.vb">
+      <DependentUpon>Demo6.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Global.asax.vb">

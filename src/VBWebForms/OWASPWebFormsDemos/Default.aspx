@@ -59,7 +59,13 @@
             </p>
         </div>
         <div class="col-md-4">
-            
+            <h2>#6 Security Misconfiguration</h2>
+            <p>
+                A demonstration of security misconfiguration.
+            </p>
+            <p>
+                <a  class="btn btn-default" href="Demo6">Run Demo &raquo;</a>
+            </p>
         </div>
     </div>
 
