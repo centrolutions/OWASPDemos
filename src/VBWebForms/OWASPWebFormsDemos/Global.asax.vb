@@ -31,6 +31,8 @@ Public Class Global_asax
         db.CreateUsersTable()
         db.DropCustomersTable()
         db.CreateCustomersTable()
+        db.DropCommentsTable()
+        db.CreateCommentsTable()
 
         AddMembershipRolesAndUsersIfNeeded()
     End Sub

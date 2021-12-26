@@ -60,6 +60,24 @@ Public Class SqliteDatabase
         Return results
     End Function
 
+    Public Sub CreateCommentsTable()
+        m_Connection.Open()
+        Using comm As SQLiteCommand = m_Connection.CreateCommand()
+            comm.CommandText = "CREATE TABLE IF NOT EXISTS Comments (CommentId INTEGER PRIMARY KEY AUTOINCREMENT, User VARCHAR(50), Text TEXT)"
+            comm.ExecuteNonQuery()
+        End Using
+        m_Connection.Close()
+    End Sub
+
+    Public Sub DropCommentsTable()
+        m_Connection.Open()
+        Using comm As SQLiteCommand = m_Connection.CreateCommand()
+            comm.CommandText = "DROP TABLE IF EXISTS Comments"
+            comm.ExecuteNonQuery()
+        End Using
+        m_Connection.Close()
+    End Sub
+
     Public Function Execute(sql As String, tableName As String) As DataTable
         m_Connection.Open()
         Dim result As New DataTable(tableName)

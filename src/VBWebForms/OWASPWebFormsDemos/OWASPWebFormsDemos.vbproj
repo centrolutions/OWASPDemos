@@ -198,6 +198,7 @@
     <Content Include="Demo4.aspx" />
     <Content Include="Demo5.aspx" />
     <Content Include="Demo6.aspx" />
+    <Content Include="Demo7.aspx" />
     <Content Include="ErrorPage.htm" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -212,6 +213,8 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="App_Data\app_data.sqlite" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Images\fruit-hats8.jpg" />
+    <Content Include="Images\placeholder-profile-male.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -297,9 +300,17 @@
       <DependentUpon>Demo6.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="Demo7.aspx.designer.vb">
+      <DependentUpon>Demo7.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demo7.aspx.vb">
+      <DependentUpon>Demo7.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Comment.vb" />
     <Compile Include="Models\Customer.vb" />
     <Compile Include="Models\DTOs\CustomerSummary.vb" />
     <Compile Include="Models\IFillable.vb" />

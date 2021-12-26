@@ -69,4 +69,33 @@
         </div>
     </div>
 
+    <div class="row">
+        <div class="col-md-4">
+            <h2>#7 Cross Site Scripting</h2>
+            <p>
+                A demonstration of an XSS attack.
+            </p>
+            <p>
+                <a class="btn btn-default" href="Demo7">Run Demo &raquo;</a>
+            </p>
+        </div>
+        <div class="col-md-4">
+            <h2>#8 Insecure Deserialization</h2>
+            <p>
+                A demonstration of an insecure deserialization attack.
+            </p>
+            <p>
+                <a  class="btn btn-default" href="Demo8">Run Demo &raquo;</a>
+            </p>
+        </div>
+        <div class="col-md-4">
+            <h2>#9 Coming soon...</h2>
+            <p>
+                Standby...
+            </p>
+            <p>
+                <a  class="btn btn-default" href="Demo9">Run Demo &raquo;</a>
+            </p>
+        </div>
+    </div>
 </asp:Content>

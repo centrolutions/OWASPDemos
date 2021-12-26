@@ -60,6 +60,15 @@ namespace EvilWebServer
                     response.OutputStream.Write(data);
                 }
 
+                if (fileRequested.StartsWith("badxss.js"))
+                {
+                    var data = File.ReadAllBytes("badxss.js");
+                    response.ContentType = "text/javascript";
+                    response.ContentEncoding = Encoding.UTF8;
+                    response.ContentLength64 = data.LongLength;
+                    response.OutputStream.Write(data);
+                }
+
                 Console.WriteLine(request.Url);
             }
         }
