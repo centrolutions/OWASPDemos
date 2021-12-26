@@ -1,6 +1,7 @@
 ﻿Imports System.Data.SQLite
 Imports System.Web.Optimization
 Imports System.Web.Http
+Imports Newtonsoft.Json
 
 Public Class Global_asax
     Inherits HttpApplication
@@ -13,6 +14,12 @@ Public Class Global_asax
         BundleConfig.RegisterBundles(BundleTable.Bundles)
         SetupDatabase()
         RegisterApiRoutes()
+
+#Region "Demo8 Fix: disable this code"
+        Dim jsonSettings As New JsonSerializerSettings()
+        jsonSettings.TypeNameHandling = TypeNameHandling.Auto
+        JsonConvert.DefaultSettings = Function() jsonSettings
+#End Region
     End Sub
 
 #Region "Demo 6 Fix"

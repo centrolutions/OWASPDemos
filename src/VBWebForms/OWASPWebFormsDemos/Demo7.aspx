@@ -105,7 +105,7 @@
             <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                 <div class="card-body">
                     <ul>
-                        <li>Don't disable page validation. Instead, use markup to allow user annotations in long text fields.</li>
+                        <li>Don't disable page validation. Instead, use something like Markdown to allow user annotations in long text fields.</li>
                         <li>Don't disable site-wide validation in the web.config</li>
                         <li>Validate and sanitize data from users.</li>
                     </ul>
