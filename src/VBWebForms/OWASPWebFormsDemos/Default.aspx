@@ -55,7 +55,7 @@
                 A demonstration of a broken access control system.
             </p>
             <p>
-                <a  class="btn btn-default" href="Demo5">Run Demo &raquo;</a>
+                <a class="btn btn-default" href="Demo5">Run Demo &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">
@@ -64,7 +64,7 @@
                 A demonstration of security misconfiguration.
             </p>
             <p>
-                <a  class="btn btn-default" href="Demo6">Run Demo &raquo;</a>
+                <a class="btn btn-default" href="Demo6">Run Demo &raquo;</a>
             </p>
         </div>
     </div>
@@ -85,17 +85,35 @@
                 A demonstration of an insecure deserialization attack.
             </p>
             <p>
-                <a  class="btn btn-default" href="Demo8">Run Demo &raquo;</a>
+                <a class="btn btn-default" href="Demo8">Run Demo &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">
-            <h2>#9 Coming soon...</h2>
+            <h2>#9 Using Components with Known Vulnerabilities</h2>
             <p>
-                Standby...
+                A discussion about components and external libraries
             </p>
             <p>
-                <a  class="btn btn-default" href="Demo9">Run Demo &raquo;</a>
+                <a class="btn btn-default" href="Demo9">Show Notes &raquo;</a>
             </p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <h2></h2>
+        </div>
+        <div class="col-md-4">
+            <h2>#10 Insufficient Logging and Monitoring</h2>
+            <p>
+                A demonstration of insufficient logging.
+            </p>
+            <p>
+                <a class="btn btn-default" href="Demo10">Run Demo &raquo;</a>
+            </p>
+        </div>
+        <div class="col-md-4">
+            <h2></h2>
         </div>
     </div>
 </asp:Content>

@@ -57,6 +57,7 @@
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=3.6.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.CSharp" />
     <Reference Include="SQLiteMembershipProvider, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\SQLiteMembershipProvider.1.1.0.0\lib\net40\SQLiteMembershipProvider.dll</HintPath>
     </Reference>
@@ -193,6 +194,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="Demo1.aspx" />
+    <Content Include="Demo10.aspx" />
     <Content Include="Demo2.aspx" />
     <Content Include="Demo3.aspx" />
     <Content Include="Demo4.aspx" />
@@ -267,6 +269,13 @@
       <DependentUpon>Demo1.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="Demo10.aspx.designer.vb">
+      <DependentUpon>Demo10.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demo10.aspx.vb">
+      <DependentUpon>Demo10.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Demo2.aspx.designer.vb">
       <DependentUpon>Demo2.aspx</DependentUpon>
     </Compile>
@@ -330,6 +339,7 @@
     <Compile Include="Models\Customer.vb" />
     <Compile Include="Models\DTOs\CustomerSummary.vb" />
     <Compile Include="Models\IFillable.vb" />
+    <Compile Include="Models\Logger.vb" />
     <Compile Include="Models\SqliteDatabase.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
